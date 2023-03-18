@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_649728_timeclock_hourly_rate" label="Hourly rate" language="en" table="sys_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_649728_timeclock_hourly_rate</element>
+            <help/>
+            <hint/>
+            <label>Hourly rate</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <plural>Hourly rates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-18 20:36:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hourly rate</sys_name>
+            <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+            <sys_update_name>sys_documentation_sys_user_x_649728_timeclock_hourly_rate_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-18 20:36:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

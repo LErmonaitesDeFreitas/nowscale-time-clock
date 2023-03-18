@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d1b1af931ba52110ae7a76e7cc4bcbe7" extends="task" label="Time Worked" max_length="40" name="x_649728_timeclock_time_worked" type="collection">
+        <element label="Cost" max_length="20" name="cost" type="currency"/>
+        <element label="Task" max_length="32" name="task" reference="x_649728_timeclock_task" type="reference"/>
+        <element label="Timesheet" max_length="32" name="timesheet" reference="x_649728_timeclock_timesheet" type="reference"/>
+    </element>
+</database>
