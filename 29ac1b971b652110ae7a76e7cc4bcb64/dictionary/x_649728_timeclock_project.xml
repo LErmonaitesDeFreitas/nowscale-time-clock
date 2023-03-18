@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4c6e17db1b652110ae7a76e7cc4bcbfb" extends="task" label="Project" max_length="40" name="x_649728_timeclock_project" type="collection">
+        <element label="Customer" max_length="32" name="customer" reference="x_649728_timeclock_customer" type="reference"/>
+        <element label="Total cost" max_length="20" name="total_cost" type="currency"/>
+    </element>
+</database>
