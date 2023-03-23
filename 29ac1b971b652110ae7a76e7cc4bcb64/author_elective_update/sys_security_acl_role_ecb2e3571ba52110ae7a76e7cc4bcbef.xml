@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-18 20:30:15</sys_created_on>
+        <sys_id>ecb2e3571ba52110ae7a76e7cc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_649728_timeclock_time_worked.x_649728_timeclock.user</sys_name>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_security_acl display_value="x_649728_timeclock_time_worked">5cb2e3571ba52110ae7a76e7cc4bcba2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ecb2e3571ba52110ae7a76e7cc4bcbef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-18 20:30:15</sys_updated_on>
+        <sys_user_role display_value="x_649728_timeclock.user" name="x_649728_timeclock.user">d5fd5b5b1b652110ae7a76e7cc4bcb1a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</application>
+        <file_path/>
+        <instance_id>69c42657dba9251c9831ac44d49619a8</instance_id>
+        <instance_name>dev165761</instance_name>
+        <name>sys_security_acl_role_ecb2e3571ba52110ae7a76e7cc4bcbef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-18 20:30:15</sys_created_on><sys_id>ecb2e3571ba52110ae7a76e7cc4bcbef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_649728_timeclock_time_worked.x_649728_timeclock.user</sys_name><sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package><sys_policy/><sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope><sys_security_acl display_value="x_649728_timeclock_time_worked">5cb2e3571ba52110ae7a76e7cc4bcba2</sys_security_acl><sys_update_name>sys_security_acl_role_ecb2e3571ba52110ae7a76e7cc4bcbef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-18 20:30:15</sys_updated_on><sys_user_role display_value="x_649728_timeclock.user" name="x_649728_timeclock.user">d5fd5b5b1b652110ae7a76e7cc4bcb1a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-38477226</payload_hash>
+        <record_name>x_649728_timeclock_time_worked.x_649728_timeclock.user</record_name>
+        <reverted_from/>
+        <source>4ead5b1b1b652110ae7a76e7cc4bcb27</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-18 20:30:15</sys_created_on>
+        <sys_id>60b2e3571ba52110ae7a76e7cc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186f66a6dcc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-18 20:30:15</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a8b2e357a4a52110fa4a4e5023e128f1</update_guid>
+        <update_guid_history>a8b2e357a4a52110fa4a4e5023e128f1:-38477226</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_649728_timeclock_time_worked.x_649728_timeclock.user">ab57540d1b712110ae7a76e7cc4bcbbd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-23 16:11:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>8a30a177ab9a4e6ea0a712a34bc1b2c4</sys_id>
+        <sys_metadata>ecb2e3571ba52110ae7a76e7cc4bcbef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_649728_timeclock_time_worked.x_649728_timeclock.user</sys_name>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_parent display_value="x_649728_timeclock_time_worked">5cb2e3571ba52110ae7a76e7cc4bcba2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_scope_delete display_value="">244a85b95bc04a22868371dfc32ea204</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ecb2e3571ba52110ae7a76e7cc4bcbef</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ecb2e3571ba52110ae7a76e7cc4bcbef">60b2e3571ba52110ae7a76e7cc4bcbf2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 16:11:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
