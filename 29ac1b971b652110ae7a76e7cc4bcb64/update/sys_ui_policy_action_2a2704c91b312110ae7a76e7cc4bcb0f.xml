@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>assignment_group</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-23 15:01:06</sys_created_on>
+        <sys_id>2a2704c91b312110ae7a76e7cc4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2a2704c91b312110ae7a76e7cc4bcb0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 15:01:06</sys_updated_on>
+        <table>x_649728_timeclock_task</table>
+        <ui_policy display_value="Nowscale: When the state is Doing or Done the Assignment group and Assigned to fields are mandatory">bcc64c891b312110ae7a76e7cc4bcb78</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

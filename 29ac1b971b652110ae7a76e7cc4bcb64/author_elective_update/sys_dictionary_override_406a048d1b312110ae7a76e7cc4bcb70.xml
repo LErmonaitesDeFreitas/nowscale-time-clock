@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>cost</element>
+        <mandatory>true</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_649728_timeclock_time_worked</name>
+        <read_only>true</read_only>
+        <read_only_override>true</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-23 15:14:30</sys_created_on>
+        <sys_id>406a048d1b312110ae7a76e7cc4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cost</sys_name>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_update_name>sys_dictionary_override_406a048d1b312110ae7a76e7cc4bcb70</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 15:14:30</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</application>
+        <file_path/>
+        <instance_id>69c42657dba9251c9831ac44d49619a8</instance_id>
+        <instance_name>dev165761</instance_name>
+        <name>sys_dictionary_override_406a048d1b312110ae7a76e7cc4bcb70</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>cost</element><mandatory>true</mandatory><mandatory_override>false</mandatory_override><name>x_649728_timeclock_time_worked</name><read_only>true</read_only><read_only_override>true</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-23 15:14:30</sys_created_on><sys_id>406a048d1b312110ae7a76e7cc4bcb70</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cost</sys_name><sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package><sys_policy/><sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope><sys_update_name>sys_dictionary_override_406a048d1b312110ae7a76e7cc4bcb70</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-23 15:14:30</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>-1247322197</payload_hash>
+        <record_name>cost</record_name>
+        <reverted_from/>
+        <source>4ead5b1b1b652110ae7a76e7cc4bcb27</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-23 15:14:30</sys_created_on>
+        <sys_id>4c6a848d1b312110ae7a76e7cc4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1870f0925b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 15:14:30</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>846a848d67312110d98297bbd43d583e</update_guid>
+        <update_guid_history>846a848d67312110d98297bbd43d583e:-1247322197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-23 15:18:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>ce4199559a8b43749651f0d0dc77e684</sys_id>
+        <sys_metadata>406a048d1b312110ae7a76e7cc4bcb70</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cost</sys_name>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_parent display_value="Task">3b72a7531ba52110ae7a76e7cc4bcb99</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_scope_delete display_value="">244a85b95bc04a22868371dfc32ea204</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_406a048d1b312110ae7a76e7cc4bcb70</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_406a048d1b312110ae7a76e7cc4bcb70">4c6a848d1b312110ae7a76e7cc4bcb3e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 15:18:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
