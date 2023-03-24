@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_649728_timeclock.TimeClockProjectUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TimeClockProjectUtils</name>
+        <script><![CDATA[var TimeClockProjectUtils = Class.create();
+TimeClockProjectUtils.prototype = {
+    initialize: function() {
+
+        this.TASK_TABLE_NAME = 'x_649728_timeclock_task';
+
+        this.TIME_WORKED_TABLE_NAME = 'x_649728_timeclock_time_worked';
+    },
+
+    hasTimeWorked: function(projectID) {
+
+        var taskUtils = new TimeClockTaskUtils();
+
+        var task = new GlideRecord(this.TASK_TABLE_NAME);
+
+        task.addQuery('project', projectID);
+
+        task.query();
+
+        while (task.next()) {
+
+            if (taskUtils.hasTimeWorked(task.getUniqueValue()))
+
+                return true;
+
+        }
+
+        return false;
+
+    },
+
+    updateTotalCost: function(project) {
+
+        var totalCost = 0;
+
+        var task = new GlideRecord(this.TASK_TABLE_NAME);
+
+        task.addQuery('project', project.getUniqueValue());
+
+        task.query();
+
+        while (task.next()) {
+			
+			var taskTotalCost = 0;
+
+            var timeWorked = new GlideRecord(this.TIME_WORKED_TABLE_NAME);
+
+            timeWorked.addQuery('task', task.getUniqueValue());
+
+            timeWorked.query();
+
+            while (timeWorked.next())
+
+				taskTotalCost += parseFloat(timeWorked.cost);
+
+            task.setValue('total_cost', taskTotalCost);
+
+            task.update();
+			
+			totalCost += taskTotalCost;
+
+        }
+		
+		project.setValue('total_cost', totalCost);
+		
+		project.update();
+
+    },
+
+    type: 'TimeClockProjectUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-24 17:01:30</sys_created_on>
+        <sys_id>817c29591b356110ae7a76e7cc4bcb81</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TimeClockProjectUtils</sys_name>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_update_name>sys_script_include_817c29591b356110ae7a76e7cc4bcb81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 17:26:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

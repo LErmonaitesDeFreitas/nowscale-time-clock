@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_649728_timeclock.TimeClockTaskUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TimeClockTaskUtils</name>
+        <script><![CDATA[var TimeClockTaskUtils = Class.create();
+TimeClockTaskUtils.prototype = {
+    initialize: function() {
+		this.TIME_WORKED_TABLE_NAME = 'x_649728_timeclock_time_worked';
+    },
+
+	hasTimeWorked: function (taskID) {
+		
+		var timeWorked = new GlideRecord(this.TIME_WORKED_TABLE_NAME);
+		
+		timeWorked.addQuery('task', taskID);
+		
+		timeWorked.query();
+		
+		return timeWorked.hasNext();
+		
+	},
+	
+	updateTotalCost: function (task) {
+	
+		var totalCost = 0;
+		
+		var timeWorked = new GlideRecord(this.TIME_WORKED_TABLE_NAME);
+		
+		timeWorked.addQuery('task', task.getUniqueValue());
+		
+		timeWorked.query();
+		
+		while (timeWorked.next()) 
+			
+			totalCost += parseFloat(timeWorked.cost);
+			
+		task.setValue('total_cost', totalCost);
+		
+		task.update();
+		
+	},
+	
+    type: 'TimeClockTaskUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-24 16:14:47</sys_created_on>
+        <sys_id>87b1ad911b356110ae7a76e7cc4bcbd0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>TimeClockTaskUtils</sys_name>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_update_name>sys_script_include_87b1ad911b356110ae7a76e7cc4bcbd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 17:07:53</sys_updated_on>
+    </sys_script_include>
+</record_update>
