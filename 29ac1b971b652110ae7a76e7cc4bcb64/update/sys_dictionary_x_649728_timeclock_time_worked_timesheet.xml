@@ -44,7 +44,7 @@
         <reference_cascade_rule>delete</reference_cascade_rule>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
+        <reference_qual>javascript: new x_649728_timeclock.TimeClockTimeWorkedUtils().refQualTimesheet(current)</reference_qual>
         <reference_qual_condition/>
         <reference_type/>
         <spell_check>false</spell_check>
@@ -58,13 +58,13 @@
         <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
         <sys_update_name>sys_dictionary_x_649728_timeclock_time_worked_timesheet</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-23 15:50:49</sys_updated_on>
+        <sys_updated_on>2023-03-29 21:38:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type>script</virtual_type>
         <widget/>

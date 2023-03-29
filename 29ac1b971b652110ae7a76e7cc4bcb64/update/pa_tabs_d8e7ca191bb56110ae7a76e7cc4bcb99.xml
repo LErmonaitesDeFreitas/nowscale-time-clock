@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Time Clock - New Tab">54e7ca191bb56110ae7a76e7cc4bcb97</canvas_page>
+        <name>Time Clock - New Tab</name>
+        <page display_value="PA Time Clock - New Tab">10e7ca191bb56110ae7a76e7cc4bcb96</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-24 19:01:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8e7ca191bb56110ae7a76e7cc4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Clock - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_update_name>pa_tabs_d8e7ca191bb56110ae7a76e7cc4bcb99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-24 19:01:20</sys_updated_on>
+    </pa_tabs>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_649728_timeclock.TimeClockTimeWorkedUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TimeClockTimeWorkedUtils</name>
+        <script><![CDATA[var TimeClockTimeWorkedUtils = Class.create();
+TimeClockTimeWorkedUtils.prototype = {
+	initialize: function() {
+	},
+
+	refQualAssignedTo: function (timeWorked) {
+
+		if (!timeWorked.timesheet.nil()) 
+
+			return 'sys_id=' + timeWorked.timesheet.assigned_to.toString();
+
+		else if (!timeWorked.task.nil()) {
+			
+			var refQual = [];
+			
+			if (!timeWorked.task.assigned_to.nil())
+
+				refQual.push(timeWorked.task.assigned_to.toString());
+
+			if (!timeWorked.task.additional_assignee_list.nil())
+
+				refQual = refQual.concat(timeWorked.task.additional_assignee_list.toString().split(','));
+			
+			return 'sys_idIN' + refQual.toString();
+
+		} else
+
+			return 'roles=d5fd5b5b1b652110ae7a76e7cc4bcb1a';
+		
+		
+	},
+	
+	refQualTimesheet: function (timeWorked) {
+
+		if (!timeWorked.assigned_to.nil()) 
+
+			return 'assigned_to=' + timeWorked.assigned_to.toString();
+		
+		else if (!timeWorked.task.nil()) {
+			
+			var refQual = [];
+			
+			if (!timeWorked.task.assigned_to.nil())
+
+				refQual.push(timeWorked.task.assigned_to.toString());
+
+			if (!timeWorked.task.additional_assignee_list.nil())
+
+				refQual = refQual.concat(timeWorked.task.additional_assignee_list.toString().split(','));
+			
+			return 'assigned_to.sys_idIN' + refQual.toString();
+
+		}
+		
+	},
+	
+	refQualTask: function (timeWorked) {
+		
+		if (!timeWorked.assigned_to.nil())
+		
+			return 'stateIN2,3^assigned_to=' + timeWorked.assigned_to.toString();
+		
+		if (!timeWorked.timesheet.assigned_to.nil())
+			
+			return 'stateIN2,3^assigned_to=' + timeWorked.timesheet.assigned_to.toString();
+		
+		return 'stateIN2,3';
+		
+	},
+
+	type: 'TimeClockTimeWorkedUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-29 20:19:02</sys_created_on>
+        <sys_id>bd87004f1b312110ae7a76e7cc4bcb3a</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>TimeClockTimeWorkedUtils</sys_name>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_update_name>sys_script_include_bd87004f1b312110ae7a76e7cc4bcb3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-29 22:06:06</sys_updated_on>
+    </sys_script_include>
+</record_update>
