@@ -4,22 +4,22 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <condition/>
-        <description>Default access control on x_649728_timeclock_time_worked</description>
-        <name>x_649728_timeclock_time_worked</name>
-        <operation display_value="create">create</operation>
+        <description/>
+        <name>AddressUtils</name>
+        <operation display_value="execute">execute</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-18 20:30:14</sys_created_on>
-        <sys_id>dcb2e3571ba52110ae7a76e7cc4bcb9c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_649728_timeclock_time_worked</sys_name>
+        <sys_created_on>2023-03-30 22:36:21</sys_created_on>
+        <sys_id>e0a235d31b756110ae7a76e7cc4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AddressUtils</sys_name>
         <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
-        <sys_update_name>sys_security_acl_dcb2e3571ba52110ae7a76e7cc4bcb9c</sys_update_name>
+        <sys_update_name>sys_security_acl_e0a235d31b756110ae7a76e7cc4bcb03</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-31 00:23:28</sys_updated_on>
-        <type display_value="record">record</type>
+        <sys_updated_on>2023-03-30 22:36:21</sys_updated_on>
+        <type display_value="client_callable_script_include">client_callable_script_include</type>
     </sys_security_acl>
 </record_update>

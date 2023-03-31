@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_649728_timeclock.AddressUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AddressUtils</name>
+        <script><![CDATA[var AddressUtils = Class.create();
+AddressUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getAddressInfoByCEP: function() {
+		
+		var cep = this.getParameter('sysparm_cep');
+		
+		var restMessage = new sn_ws.RESTMessageV2('ViaCEP', 'GET');
+		
+		restMessage.setStringParameterNoEscape('cep', cep);
+		
+		var response = restMessage.execute();
+		
+		return response.getBody();
+		
+	},
+
+    type: 'AddressUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-30 22:36:20</sys_created_on>
+        <sys_id>5b027d931b756110ae7a76e7cc4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AddressUtils</sys_name>
+        <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+        <sys_update_name>sys_script_include_5b027d931b756110ae7a76e7cc4bcb15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-30 22:36:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8acdd75b1b652110ae7a76e7cc4bcbaf" label="Customer" max_length="40" name="x_649728_timeclock_customer" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="160" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CEP" max_length="8" name="cep" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="100" name="city" type="string"/>
         <element label="Contact" mandatory="true" max_length="32" name="contact" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Country" mandatory="true" max_length="40" name="country" type="string">
+            <choice>
+                <element inactive_on_update="false" label="USA" sequence="100" value="usa"/>
+                <element inactive_on_update="false" label="Brazil" sequence="200" value="brazil"/>
+            </choice>
+        </element>
         <element label="Name" mandatory="true" max_length="160" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Neighborhood" max_length="160" name="neighborhood" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="2" name="state" type="string"/>
         <index name="index">
             <element name="contact"/>
         </index>

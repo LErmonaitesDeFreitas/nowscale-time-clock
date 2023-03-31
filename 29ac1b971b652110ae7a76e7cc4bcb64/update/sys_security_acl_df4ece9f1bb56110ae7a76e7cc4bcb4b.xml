@@ -5,21 +5,21 @@
         <advanced>false</advanced>
         <condition/>
         <description>Default access control on x_649728_timeclock_time_worked</description>
-        <name>x_649728_timeclock_time_worked</name>
-        <operation display_value="create">create</operation>
+        <name>x_649728_timeclock_time_worked.assigned_to</name>
+        <operation display_value="write">write</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-18 20:30:14</sys_created_on>
-        <sys_id>dcb2e3571ba52110ae7a76e7cc4bcb9c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_649728_timeclock_time_worked</sys_name>
+        <sys_created_on>2023-03-31 00:37:14</sys_created_on>
+        <sys_id>df4ece9f1bb56110ae7a76e7cc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_649728_timeclock_time_worked.assigned_to</sys_name>
         <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
-        <sys_update_name>sys_security_acl_dcb2e3571ba52110ae7a76e7cc4bcb9c</sys_update_name>
+        <sys_update_name>sys_security_acl_df4ece9f1bb56110ae7a76e7cc4bcb4b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-31 00:23:28</sys_updated_on>
+        <sys_updated_on>2023-03-31 00:37:14</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

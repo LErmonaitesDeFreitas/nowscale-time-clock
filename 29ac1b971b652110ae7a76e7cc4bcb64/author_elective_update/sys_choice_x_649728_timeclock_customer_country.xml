@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="country" table="x_649728_timeclock_customer" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <name>x_649728_timeclock_customer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-30 22:22:35</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>country</sys_name>
+            <sys_package display_value="Time Clock" source="x_649728_timeclock">29ac1b971b652110ae7a76e7cc4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Time Clock">29ac1b971b652110ae7a76e7cc4bcb64</sys_scope>
+            <sys_update_name>sys_choice_x_649728_timeclock_customer_country</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-30 22:22:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA</label>
+            <language>en</language>
+            <name>x_649728_timeclock_customer</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-30 22:22:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>117f61131b756110ae7a76e7cc4bcbf6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-30 22:22:43</sys_updated_on>
+            <value>usa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>country</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brazil</label>
+            <language>en</language>
+            <name>x_649728_timeclock_customer</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-30 22:22:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c77fad9f1b356110ae7a76e7cc4bcbcb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-30 22:22:54</sys_updated_on>
+            <value>brazil</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
